@@ -1,0 +1,32 @@
+# ===== أسرار — الأخطر على الإطلاق =====
+.env
+*.key
+secrets/
+
+# ===== البيئة الافتراضية =====
+.venv/
+venv/
+env/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== بيانات =====
+# قاعدة SQLite مولَّدة — تُبنى بـ build_db.py
+data/*.db
+# ملف المصدر كبير؛ أزل السطر إن أردت رفعه
+*.xlsx
+
+# ===== مخرجات التشغيل =====
+answer.md
+trace.md
+
+# ===== المحرر ونظام التشغيل =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
