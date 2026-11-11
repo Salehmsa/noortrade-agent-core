@@ -2,6 +2,8 @@
 
 **A tool-using AI agent built from scratch — no LangChain, no framework.**
 
+**▶ [Live Showcase](https://salehmsa.github.io/demos/noortrade-agent/)** — architecture, agent loop, safety layers and the case study on one page (Arabic / English, dark / light).
+
 An analytical agent that answers business questions about Saudi retail sales data in
 Arabic or English. It writes its own SQL, reads its own errors, corrects itself, and
 refuses to state a number it did not measure.
